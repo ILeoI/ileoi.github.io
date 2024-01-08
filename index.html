@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Shithead</title>
 </head>
+
 <body>
-    <h1>SHITHEAD</h1>
+    <div id="game-div">
+        <div id="pick-up-pile" class="card-outline">
+            <p class="under-card-text">PICK UP</p>
+        </div>
+
+        <div id="void-pile" class="card-outline">
+            <p class="under-card-text">VOID PILE</p>
+        </div>
+
+
+
+        <div class="player-hands">
+            <div class="top">
+                <div class="card-outline hand"></div>
+                <div class="card-outline hand"></div>
+                <div class="card-outline hand"></div>
+            </div>
+
+            <div id="play-pile" class="card-outline">
+                <p class="under-card-text">PLAY PILE</p>
+            </div>
+            
+            <div class="bottom">
+                <div class="card-outline hand"></div>
+                <div class="card-outline hand"></div>
+                <div class="card-outline hand"></div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>

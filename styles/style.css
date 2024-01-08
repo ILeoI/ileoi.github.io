@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+#game-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #00cc59;
+    border-radius: 20px;
+    background-color: #004d04;
+    padding: 20px;
+}
+
+.card-outline {
+    width: 100px;
+    height: 180px;
+
+    border: 10px solid goldenrod;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.under-card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 25px;
+    justify-self: center;
+}
+
+#pick-up-pile {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#void-pile {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#play-pile {
+    position: absolute;
+    left: 30%;
+}
+
+.hand {
+    float: left;
+    margin-right: 100px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+
+.top {
+    position: absolute;
+    left: 30%;
+}
+
+.player-hands {
+    position: relative;
+    height: 100%;
+    
+}
